@@ -1,0 +1,54 @@
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:gravity="center_horizontal"
+    android:background="#f0f0f0"
+    xmlns:ads="http://schemas.android.com/apk/res-auto"
+    >
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="0dp"
+        android:layout_weight="1" >
+
+        <GridView
+        android:id="@+id/gridView"
+        android:rotationY="180"
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:layout_margin="5dp"
+        android:columnWidth="60dp"
+        android:gravity="center"
+        android:numColumns="7"
+        android:verticalSpacing="5dp"
+        android:horizontalSpacing="5dp"
+        android:drawSelectorOnTop="true"
+        android:stretchMode="columnWidth"
+        android:focusable="false"
+		android:focusableInTouchMode="false" >
+    </GridView>
+        
+    </LinearLayout>
+    
+    
+    <LinearLayout
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:gravity="center|bottom"
+        android:layout_marginTop="5dp"
+        android:orientation="vertical" >
+
+        <com.google.android.gms.ads.AdView
+            android:id="@+id/adView"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            ads:adSize="BANNER"
+            ads:adUnitId="@string/banner_ad_unit_id" >
+        </com.google.android.gms.ads.AdView>
+
+    </LinearLayout>
+
+
+</LinearLayout>

@@ -1,0 +1,7 @@
+#Internal package file, do not edit.
+#Tue Oct 23 20:15:09 ICT 2018
+0.baseType=DIRECTORY
+0.base=C\:\\Users\\emirkipang\\StudioProjects\\TahsinHijaiyah_withAdmob\\TahsinHijaiyah_withAdmob\\build\\intermediates\\transforms\\dexMerger\\release\\0
+0.path=classes.dex
+0.set=DEX
+count=1
